@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh;
+}
+
+.Counter {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.Controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 20px 5px 20px;
+  background-color: white;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  color: #454545;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #61dafb;
+  color: white;
+}
+
+.Number {
+  font-size: 1.2rem;
+}
