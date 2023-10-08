@@ -1,4 +1,4 @@
-const products = [
+const product = [
     {
         id: '1',
         name: 'Iphone 12',
@@ -12,10 +12,10 @@ const products = [
     {id: '3', name: 'Ipad 8va generacion', price: 1200, category: 'tablet', img: 'https://netpc.uy/wp-content/uploads/2022/08/2-121.jpg'},
 ]
 
-export const getProducts = () => {
+export const getProduct = () => {
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve(products)
+            resolve(product)
         }, 500)
     })
 }
@@ -23,15 +23,15 @@ export const getProducts = () => {
 export const getProductById = (productId) => {
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve(products.find(prod => prod.id === productId))
+            resolve(product.find(prod => prod.id === productId))
         }, 500)
     })
 }
 
-export const getProductsByCategory = (categoryId) => {
+export const getProductByCategory = (categoryId) => {
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve(products.filter(prod => prod.category === categoryId))
+            resolve(product.filter(prod => prod.category === categoryId))
         }, 500)
     })
 }
