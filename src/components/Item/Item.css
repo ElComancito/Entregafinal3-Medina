@@ -3,3 +3,50 @@
     align-items: center;
     justify-content: center; 
   }
+
+  /* Estilo para la tarjeta de producto */
+.CardItem {
+  border: 1px solid #ccc; /* Borde de 1 píxel con color gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px; /* Espaciado interno */
+  width: 300px; /* Ancho de la tarjeta (ajusta según tus necesidades) */
+  background-color: #fff; /* Fondo blanco */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  text-align: center; /* Centra el contenido en la tarjeta */
+  margin: 10px; /* Margen exterior */
+}
+
+/* Estilo para el encabezado de la tarjeta (nombre del producto) */
+.Header {
+  padding: 10px 0;
+}
+
+.ItemHeader {
+  font-size: 18px; /* Tamaño de fuente para el título */
+  margin: 0; /* Elimina el margen por defecto */
+}
+
+/* Estilo para la imagen del producto */
+.ItemImg {
+  max-width: 100%; /* Asegura que la imagen se ajuste al ancho de la tarjeta */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin-top: 10px;
+}
+
+/* Estilo para la sección de información (precio y stock) */
+.Info {
+  font-size: 14px; /* Tamaño de fuente para la información */
+  color: #555; /* Color del texto de información */
+  margin: 5px 0;
+}
+
+/* Estilo para el pie de la tarjeta (enlace para ver detalles) */
+.ItemFooter {
+  padding: 10px 0;
+}
+
+.Option {
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  background-color: #007bff; /* Fondo azul para el enlace */
+  color: white; 
+}

@@ -1,0 +1,26 @@
+nav {
+    background-color: rgba(0, 128, 0, 0.442); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  h3 {
+    font-size: 24px; 
+    color: rgb(35, 35, 35);
+    margin: 0; 
+  }
+  
+  /* Estilo para los elementos de navegación (Celulares, Tablets, Notebooks) */
+.Option {
+  font-size: 16px; /* Tamaño de fuente para las opciones */
+  color: rgb(0, 0, 0); /* Color del texto de las opciones */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  margin: 0 10px; /* Espacio horizontal entre las opciones */
+}
+
+/* Estilo para las opciones activas (si lo necesitas) */
+.ActiveOption {
+  font-weight: bold; /* Texto en negrita para la opción activa */
+}

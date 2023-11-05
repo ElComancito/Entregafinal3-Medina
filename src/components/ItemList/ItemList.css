@@ -1,0 +1,29 @@
+/* Estilo para la tarjeta de productos */
+.ListGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Estilo para cada tarjeta de producto */
+  .Item {
+    border: 1px solid #ccc; /* Borde de 1 píxel con color gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px; /* Margen exterior */
+    width: 300px; /* Ancho de la tarjeta (ajusta según tus necesidades) */
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilo para los elementos dentro de la tarjeta (puedes personalizarlos según tus necesidades) */
+  .Item h2 {
+    font-size: 18px; /* Tamaño de fuente para el título */
+    margin: 0; /* Elimina el margen por defecto */
+  }
+  
+  .Item p {
+    font-size: 14px; /* Tamaño de fuente para la descripción */
+    color: #555; /* Color del texto de descripción */
+  }
+  
